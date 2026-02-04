@@ -1,0 +1,7 @@
+boto3
+polars
+dbt-duckdb
+requests
+dotenv
+dbt-core
+pyarrrow
