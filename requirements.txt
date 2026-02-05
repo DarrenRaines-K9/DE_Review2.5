@@ -4,4 +4,4 @@ dbt-duckdb
 requests
 dotenv
 dbt-core
-pyarrrow
+pyarrow
