@@ -1,0 +1,56 @@
+[0m19:16:43.538703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E18B8230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E18B8B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E18B8AA0>]}
+
+
+============================== 19:16:43.543585 | 0bddb51b-109a-4a33-a941-999ecad7e65a ==============================
+[0m19:16:43.543585 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:16:43.545091 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Praveena\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init review2_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:16:43.579653 [debug] [MainThread]: Starter project path: C:\Users\Praveena\Documents\DE-oct-2\project-2\DE_Review2.5\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:16:43.623689 [info ] [MainThread]: 
+Your new dbt project "review2_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:16:43.624443 [info ] [MainThread]: Setting up your profile.
+[0m19:16:59.860336 [debug] [MainThread]: Command `dbt init` succeeded at 19:16:59.860336 after 16.50 seconds
+[0m19:16:59.860336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E12D72F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E1773560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276E161CBF0>]}
+[0m19:16:59.861341 [debug] [MainThread]: Flushing usage events
+[0m19:17:00.293573 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:17:24.655178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785F2581D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785F258080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785F258B60>]}
+
+
+============================== 19:17:24.663218 | 42e93190-d349-4bc1-8246-2ddf87892207 ==============================
+[0m19:17:24.663218 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:17:24.664208 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Praveena\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init project2_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:17:24.687037 [debug] [MainThread]: Starter project path: C:\Users\Praveena\Documents\DE-oct-2\project-2\DE_Review2.5\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:17:24.712886 [info ] [MainThread]: 
+Your new dbt project "project2_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:17:24.713894 [info ] [MainThread]: Setting up your profile.
+[0m19:17:29.794609 [debug] [MainThread]: Command `dbt init` succeeded at 19:17:29.794609 after 5.30 seconds
+[0m19:17:29.794609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785E96CAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785EBD71D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785EA66A20>]}
+[0m19:17:29.795609 [debug] [MainThread]: Flushing usage events
+[0m19:17:30.192585 [debug] [MainThread]: An error was encountered while trying to flush usage events
