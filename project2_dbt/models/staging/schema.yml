@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: nppes_raw
+    #database: nppes
+    schema: raw
+    tables:
+      - name: census_api
+        description: "Raw data from NPPES API"
+      - name: nppes_raw
+        description: "Raw NPI data"
+      - name: states_raw
+        description: "US States data"
+      - name: taxonomy_raw
+        description: "NUCC Taxonomy data"
+      - name: zip_county_raw
+        description: "Zip Code data with population and other details"
