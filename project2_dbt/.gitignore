@@ -2,3 +2,10 @@
 target/
 dbt_packages/
 logs/
+
+*.duckdb
+*.duckdb*
+*.wal
+*.tmp
+dev.duckdb
+my_database.duckdb

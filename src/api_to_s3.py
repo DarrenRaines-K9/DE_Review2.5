@@ -53,7 +53,7 @@ def upload_to_s3(census_data, folder, filename):
     """Write a Polars DataFrame to CSV in memory and upload to S3."""
     bucket = os.getenv("S3_BUCKET_NAME")
     prefix = os.getenv("S3_FOLDER_PREFIX")
-    profile = os.getenv("AWS_PROFILE")
+    profile = os.getenv("AWS_NAME")
 
     s3_key = f"{prefix}/raw/{folder}/{filename}"
 
