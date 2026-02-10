@@ -10,7 +10,7 @@ load_dotenv()
 
 
 def fetch_census_data(api_key, year=2024):
-    """Fetch Census ACS 5-Year county-level demographic data and return a Polars DataFrame."""
+    # Fetch Census ACS 5-Year county-level demographic data and return a Polars DataFrame.
     logger.info(f"Fetching Census data for year {year}")
 
     url = f"https://api.census.gov/data/{year}/acs/acs5"
