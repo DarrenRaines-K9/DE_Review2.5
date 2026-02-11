@@ -1,0 +1,7 @@
+pytest
+moto
+responses
+xlsxwriter
+polars
+boto3
+pytest-mock
