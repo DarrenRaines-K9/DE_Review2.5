@@ -54,3 +54,21 @@ Happy modeling!
 [0m19:17:29.794609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785E96CAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785EBD71D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001785EA66A20>]}
 [0m19:17:29.795609 [debug] [MainThread]: Flushing usage events
 [0m19:17:30.192585 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:26:59.102261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A5B47AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A5B44350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A5B47290>]}
+
+
+============================== 14:26:59.116863 | bedd7af4-167a-4128-8d68-797f7ddec7d4 ==============================
+[0m14:26:59.116863 [info ] [MainThread]: Running with dbt=1.11.2
+[0m14:26:59.117801 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\TitanUp\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:26:59.150419 [info ] [MainThread]: dbt version: 1.11.2
+[0m14:26:59.151431 [info ] [MainThread]: python version: 3.12.10
+[0m14:26:59.152430 [info ] [MainThread]: python path: C:\Users\TitanUp\Documents\NSS\DDA14\DEOCT_2\Projects\project2_nppes\DE_Review2.5\venv\Scripts\python.exe
+[0m14:26:59.153550 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m14:26:59.155615 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m14:26:59.168358 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'AWS_ACCESS_KEY_ID'
+[0m14:26:59.171984 [debug] [MainThread]: Command `dbt debug` failed at 14:26:59.170705 after 0.28 seconds
+[0m14:26:59.171984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A6035460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A68E9CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000295A7BED640>]}
+[0m14:26:59.172995 [debug] [MainThread]: Flushing usage events
+[0m14:26:59.756354 [debug] [MainThread]: An error was encountered while trying to flush usage events
