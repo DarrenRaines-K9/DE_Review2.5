@@ -1,0 +1,105 @@
+version: 2
+
+models:
+
+  - name: provider_directory
+    description: 
+      provider records including provider details, geographic location  for analytics.
+
+    columns:
+      - name: npi
+        description: Unique provider identifier
+        tests:
+          - not_null
+          - unique
+
+      - name: provider_type
+        description: Indictes the provider is an individual or organization
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Individual', 'Organization']
+
+      - name: state
+        description: Provider's state
+        tests:
+          - not_null
+
+      - name: county
+        description: Provider'scounty
+        tests:
+          - not_null
+
+      - name: zip_code
+        description: Provider's ZIP code
+        tests:
+          - not_null
+
+  - name: providers_by_geography
+    description: 
+      healthcare providers by geography
+      (state, county, ZIP).
+    columns:
+      - name: state
+        tests:
+          - not_null
+
+      - name: county
+        tests:
+          - not_null
+
+      - name: zip_code
+        tests:
+          - not_null
+
+      - name: provider_count
+        description: Number of providers in the geographic area
+        tests:
+          - not_null
+
+  - name: specialty_distribution
+    description: 
+      provider specialties across regions with specialty mix by location.
+    columns:
+      - name: state
+        tests:
+          - not_null
+
+      - name: county
+        tests:
+          - not_null
+
+      - name: classification
+        description: Provider specialty classification
+        tests:
+          - not_null
+
+      - name: provider_count
+        tests:
+          - not_null
+
+  - name: provider_density
+    description: 
+      Provider density as providers per capita
+      using population data and geographic location.
+    columns:
+      - name: state
+        tests:
+          - not_null
+
+      - name: county
+        tests:
+          - not_null
+
+      - name: population
+        description: Total population 
+        tests:
+          - not_null
+
+      - name: providers_per_capita
+        description: No of providers divided by population
+        tests:
+          - not_null
+
+
+   
